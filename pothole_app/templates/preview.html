@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Preview</title>
+</head>
+<body>
+  <h1>Video Preview</h1>
+  <video width="640" height="480" controls>
+    <source src="{{url_for('static', filename='videos/' + video_name)}}" type="video/mp4">
+
+  </video>
+</body>
+</html>

@@ -1,0 +1,7 @@
+path: '/content/drive/MyDrive/final_project_notebooks/pothole_detector/data'
+train: '/content/drive/MyDrive/final_project_notebooks/pothole_detector/data/images/train'
+val: '/content/drive/MyDrive/final_project_notebooks/pothole_detector/data/images/val'
+
+# Classes
+names:
+ 0: pothole
