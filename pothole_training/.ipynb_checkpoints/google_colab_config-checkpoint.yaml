@@ -1,6 +1,6 @@
-path: 'Documents/GitHub/pothole_amith_dsml/dataset_pothole/data'
-train: 'Documents/GitHub/pothole_amith_dsml/dataset_pothole/data/images/train'
-val: 'Documents/GitHub/pothole_amith_dsml/dataset_pothole/data/images/val'
+path: '/Users/amithmg/Documents/GitHub/pothole_amith_dsml/dataset_pothole/data'
+train: '/Users/amithmg/Documents/GitHub/pothole_amith_dsml/dataset_pothole/data/images/train'
+val: '/Users/amithmg/Documents/GitHub/pothole_amith_dsml/dataset_pothole/data/images/val'
 
 # Classes
 names:

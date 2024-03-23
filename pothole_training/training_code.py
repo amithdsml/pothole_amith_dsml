@@ -1,7 +1,7 @@
 
 ## Update this and point to main folder
 
-ROOT_DIR = 'Documents/GitHub/pothole_amith_dsml/pothole_training/'
+ROOT_DIR = '/Documents/GitHub/pothole_amith_dsml/pothole_training/'
 
 ## call the libraries
 import os
