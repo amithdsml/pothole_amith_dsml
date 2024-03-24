@@ -8,7 +8,7 @@ print(torch.backends.mps.is_available())
 
 cap = cv2.VideoCapture("pothole_video_test_1.mp4")
 
-model = YOLO("best.pt")
+model = YOLO("last.pt")
 
 
 while True:
@@ -23,7 +23,7 @@ while True:
     
     for cls, bbox in zip(classes, bboxes):    
         (x, y, x2, y2) = bbox
-        cv2.rectangle(frame, (x, y), (x2, y2), (0, 0, 225), 2)
+        cv2.rectangle(frame, (x, y), (x2, y2), (244, 13, 34), 2)
         cv2.putText(frame, str(cls), (x, y - 5), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 225), 2)
 
     cv2.imshow("Img", frame)
